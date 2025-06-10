@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+  namespace: argocd-upgrade-test
+  creationTimestamp: null  # Common metadata null
+data:
+  config.json: |
+    {
+      "feature1": true,
+      "feature2": false
+    }
