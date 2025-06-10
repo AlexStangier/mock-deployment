@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: test-config
-  namespace: argocd-upgrade-test
+  namespace: mock-app
   creationTimestamp: null  # Common metadata null
 data:
   config.json: |
